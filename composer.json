@@ -4,6 +4,7 @@
 	,"description": "歐付寶 OPay to Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://wartw.me",
+	"minimum-stability": "stable",
 	"authors": [
         {
             "name": "wartw98",
