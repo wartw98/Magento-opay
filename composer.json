@@ -11,7 +11,7 @@
         }
     ],
 	"license": "MIT"
-	,"require": {"wartw98/core": "=dev-master"}
+	,"require": {"wartw98/core": "*"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AllPay\\": ""}}
 	,"keywords": ["OPay"
 		,"歐付寶"
