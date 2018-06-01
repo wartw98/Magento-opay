@@ -12,16 +12,20 @@
 
 ##截圖
 ###前台結帳屏幕
-![](https://mage2.pro/uploads/default/original/2X/d/d5a9df1dccbd3b39848379b0aa7e5465c4a21adf.png)
+![]
+(https://mage2.pro/uploads/default/original/2X/d/d5a9df1dccbd3b39848379b0aa7e5465c4a21adf.png)
 
 ###快速模式下的前端結帳屏幕
-![](https://mage2.pro/uploads/default/original/2X/8/8c51244f8c9d30eb1afdea2cb8efcb45a91e0d39.png)
+![]
+(https://mage2.pro/uploads/default/original/2X/8/8c51244f8c9d30eb1afdea2cb8efcb45a91e0d39.png)
 
 ###後端訂單清單
-![](https://mage2.pro/uploads/default/original/2X/d/da7d7adc8ff2ba83924a51fe6d9d5c73db949833.png)
+![]
+(https://mage2.pro/uploads/default/original/2X/d/da7d7adc8ff2ba83924a51fe6d9d5c73db949833.png)
 
 ###後端設置
-![](https://mage2.pro/uploads/default/original/2X/c/c4d1d3bfe10360ca3d21dc978338a50be8138dc3.png)
+![]
+(https://mage2.pro/uploads/default/original/2X/c/c4d1d3bfe10360ca3d21dc978338a50be8138dc3.png)
 
 
 
