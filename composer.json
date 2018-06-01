@@ -10,7 +10,7 @@
             "email": "wartw98@gmail.com"
         }
     ],
-	,"license": "MIT"
+	"license": "MIT"
 	,"require": {"wartw98/core": ">=1.5"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AllPay\\": ""}}
 	,"keywords": [
