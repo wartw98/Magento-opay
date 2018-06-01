@@ -4,6 +4,12 @@
 	,"description": "歐付寶 OPay to Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://wartw.me"
+	"authors": [
+        {
+            "name": "wartw98",
+            "email": "wartw98@gmail.com"
+        }
+    ],
 	,"license": "MIT"
 	,"require": {"wartw98/core": ">=1.5"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AllPay\\": ""}}
