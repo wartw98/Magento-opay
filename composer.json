@@ -1,0 +1,31 @@
+{
+	"name": "wartw/allpay"
+	,"version": "1.0"
+	,"description": "歐付寶 OPay to Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://wartw.me"
+	,"license": "MIT"
+	,"require": {"wartw/core": ">=3.6.29"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AllPay\\": ""}}
+	,"keywords": [
+		"allPay"
+		,"OPay"
+		,"歐付寶"
+		,"API"
+		,"Bank card"
+		,"Barcode payment"
+		,"Credit card"
+		,"CVS payment"
+		,"eCommerce"
+		,"Installment"
+		,"Internet banking"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment gateway"
+		,"Payment integration"
+		,"Taiwan"
+		,"WebATM payment"
+	]
+}

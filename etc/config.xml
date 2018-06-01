@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<config
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='urn:magento:module:Magento_Store:etc/config.xsd'
+>
+    <default>
+		<df_payment>
+			<all_pay>
+				<countries>TW</countries>
+				<country_restriction>whitelist</country_restriction>
+				<currency>TWD</currency>
+				<description>{store.name}</description>
+				<description_rules>
+					<locations>
+						<customer>
+							<shown>1</shown>
+						</customer>
+						<merchant>
+							<shown>1</shown>
+						</merchant>
+					</locations>
+					<maxLength>
+						<title>[歐付寶 O'Pay (allPay)] The maximum length of a payment description («TradeDesc») is 200 characters.</title>
+						<url>#</url>
+						<value>200</value>
+					</maxLength>
+				</description_rules>
+				<descriptionOnKiosk>{store.name}</descriptionOnKiosk>
+
+				<identification>increment_id</identification>
+				<identification_rules>
+					<regex>
+						<message>it should consist of the English letters and digits only</message>
+						<pattern><![CDATA[#^[a-z0-9]+$#i]]></pattern>
+					</regex>
+					<max_length>20</max_length>
+				</identification_rules>
+				<log>1</log>
+				<messageFailure><![CDATA[Sorry, the payment attempt is failed.
+<br/>The payment service's message is «<b>{originalMessage}</b>».
+<br/>Please try again, or try another payment method.]]></messageFailure>
+				<optionsDescription><![CDATA[The following payment options are available: {options}.]]></optionsDescription>
+				<optionsLocation>magento</optionsLocation>
+				<requireBillingAddress>1</requireBillingAddress>
+				<testHashIV>v77hoKGq4kWxNNIS</testHashIV>
+				<testHashKey>5294y06JbISpM5x9</testHashKey>
+				<testMerchantID>2000132</testMerchantID>
+				<title>歐付寶 O'Pay (allPay)</title>
+				<title_backend>歐付寶 O'Pay (allPay)</title_backend>
+				<waitPeriodATM>3</waitPeriodATM>
+				<waitPeriodType>calendar_days</waitPeriodType>
+			</all_pay>
+		</df_payment>
+        <payment>
+            <dfe_all_pay>
+				<active>1</active>
+				<model>Dfe\AllPay\Method</model>
+            </dfe_all_pay>
+        </payment>
+    </default>
+</config>

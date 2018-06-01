@@ -1,0 +1,30 @@
+<h3 data-bind="i18n: 'Installment Plans'"/>
+<h4 data-bind="i18n: 'The order will be paid with a bank card.'"/>
+<table class='plans'>
+	<thead>
+		<tr>
+			<th data-bind="i18n: 'Payments'"/>
+			<th data-bind="i18n: 'First Payment'"/>
+			<th data-bind="i18n: 'Order Total'"/>
+		</tr>
+	</thead>
+	<tbody>
+	
+		<tr click='onRowClicked'>
+			<td>
+				<div class='field choice df-choice'>
+					<input
+						data-bind="attr: {id: domId()}, checked: $parent.option, value: numPayments"
+						type='radio' name='option' class='radio'
+					/>
+					<label data-bind="attr: {for: domId()}" class='label'>
+						<span data-bind='html: numPayments'></span>
+					</label>
+				</div>
+			</td>
+			<td data-bind='html: firstPaymentS()'></td>
+			<td data-bind='html: amountS()'></td>
+		</tr>
+	<!--/ko-->
+	</tbody>
+</table>

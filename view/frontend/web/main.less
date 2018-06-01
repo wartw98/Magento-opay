@@ -1,0 +1,35 @@
+
+.payment-method.dfe_all_pay {max-width: 45em;}
+
+form.dfe_all_pay {
+	
+	.choice.one-off {
+		
+		> input[type=radio] {display: block; float: left; margin-top: 0.5em;}
+		> label {
+			display: block; margin-left: 1.5em;
+			> :first-child {font-weight: 600; font-size: 1.8rem;}
+		}
+	}
+	table.plans {
+		width: auto;
+		th, td {padding: 0.25em 0; &:not(:last-child) {padding-right: 1em;}}
+		td {cursor: pointer; padding-left: 0.2em; vertical-align: inherit;}
+		td:not(:first-child) {padding-top: 0.3em;}
+		.df-choice {padding: 0;}
+		tbody > tr {&:hover, &.selected {background-color: rgb(245, 245, 245);}}
+	}
+	&.has-plans {
+		margin-bottom: 1em;
+		> .container:not(:first-child) {margin-top: 1em;}
+	}
+	&.with-options {
+		&.has-plans.df-wide {
+			width: 100%; overflow: hidden;
+			> .container {
+				float: left;
+				&:not(:first-child) {margin-top: 0; margin-left: 4em;}
+			}
+		}
+	}
+}

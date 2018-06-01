@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<config
+	xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:noNamespaceSchemaLocation='urn:magento:framework:ObjectManager/etc/config.xsd'
+>
+	<virtualType name='Dfe\AllPay\Validator\Currency' type='Df\Framework\Validator\Currency'>
+		<arguments><argument name='iso3' xsi:type='string'>TWD</argument></arguments>
+	</virtualType>
+</config>
