@@ -1,9 +1,9 @@
-這個擴展將Magento 2基於webstore與** [歐付寶O'Pay（allPay）]（https://www.opay.tw）**台灣支付服務集成在一起。
+這個擴展將Magento 2是 [歐付寶O'Pay（allPay）]（https://www.opay.tw）的付款模組
 
-##演示視頻
 
-1. [獲取**銀行卡**付款]（https://www.youtube.com/watch?v=tmy-YbPGrio）。
-2. [獲取** ATM **付款]（https://www.youtube.com/watch?v=1S-j8UbXZtA）。
+##可用付款功能
+1. 銀行卡
+2. ATM
 3. [獲取**條碼**付款]（https://www.youtube.com/watch?v=ujA-BOQV6GM）。
 4. [分期付款**]（https://www.youtube.com/watch?v=rAkXZlP8Xok）。
 5. [Magento結帳屏幕上的付款**選項**]（https://www.youtube.com/watch?v=V0vYTeRALyo）。
