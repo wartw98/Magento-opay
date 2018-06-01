@@ -5,7 +5,7 @@
 	,"type": "magento2-module"
 	,"homepage": "https://wartw.me"
 	,"license": "MIT"
-	,"require": {"wartw/core": ">=3.6.29"}
+	,"require": {"wartw/core": ">=1.5"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AllPay\\": ""}}
 	,"keywords": [
 		"allPay"
