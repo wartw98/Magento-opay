@@ -17,10 +17,11 @@
 
 ## How to install
 ```
-composer require wartw98/magentoopay
+composer require wartw98/core:dev-master
+composer require wartw98/magentoopay:dev-master
 bin/magento setup:upgrade
-rm -rf pub/static/* && bin/magento setup:static-content:deploy en_US zh_Hant_TW zh_Hans_CN
-rm -rf var/di var/generation generated/code && bin/magento setup:di:compile
+rm -rf pub/static/* && php -dmemory_limit=1G bin/magento setup:static-content:deploy en_US zh_Hant_TW zh_Hans_CN -f
+rm -rf var/di var/generation generated/code && php -dmemory_limit=1G bin/magento setup:di:compile
 ```
 
 
