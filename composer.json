@@ -1,6 +1,6 @@
 {
 	"name": "wartw98/magentoopay"
-	,"version": "1.7.5"
+	
 	,"description": "歐付寶 OPay to Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://wartw.me",
