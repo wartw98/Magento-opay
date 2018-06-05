@@ -11,7 +11,7 @@
         }
     ],
 	"license": "MIT",
-	"minimum-stability": "dev-master"
+	"minimum-stability": "dev"
 	,"require": {"wartw98/core": "dev-master"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AllPay\\": ""}}
 	,"keywords": ["OPay"
