@@ -10,9 +10,9 @@
             "email": "wartw98@gmail.com"
         }
     ],
-	"license": "MIT","minimum-stability": "dev"
-
-	,"require": {"wartw98/core": "*"}
+	"license": "MIT",
+	"minimum-stability": "dev-master"
+	,"require": {"wartw98/core": "dev-master"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AllPay\\": ""}}
 	,"keywords": ["OPay"
 		,"歐付寶"
