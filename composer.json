@@ -1,12 +1,12 @@
 {
-	"name": "wartw98/magentoopay"
+	"name": "wartw/magentoopay"
 	
 	,"description": "歐付寶 OPay to Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://wartw.me",
 	"authors": [
         {
-            "name": "wartw98",
+            "name": "wartw",
             "email": "wartw98@gmail.com"
         }
     ],
