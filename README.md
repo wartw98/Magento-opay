@@ -1,7 +1,6 @@
 開發中的Magento 2  **[歐付寶 O'Pay (allPay)](https://www.opay.tw)** 的模組
 
 
-
 ## How to install
 ```
 composer require wartw98/magentoopay
